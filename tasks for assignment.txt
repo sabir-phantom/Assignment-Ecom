@@ -5,25 +5,27 @@ Building E-Commerce Models, middlewares, controllers, routes, and services with 
 You have been tasked with developing the backend for a full-fledged e-commerce website. Your first step is to create the necessary Mongoose models to represent the core entities of the application.
 
 
-
+*
 Task 1: BrandModel
 
 
-Create a Mongoose model named brands to store user information. The User model should have the following fields: - brandName, brandImg
+Create a Mongoose model named brands to store user information.
+The User model should have the following fields: - brandName, brandImg
 
 
 
 Task 2: CartModel
 
+Create a Mongoose model named carts to store user information.
+The User model should have the following fields: - productID, userID, color, price, qty, size
 
-Create a Mongoose model named carts to store user information. The User model should have the following fields: - productID, userID, color, price, qty, size
 
-
-
+*
 Task 3: CategoryModel
 
 
-Create a Mongoose model named categories to store user information. The User model should have the following fields: - categoryName, categoryImg
+Create a Mongoose model named categories to store user information.
+The User model should have the following fields: - categoryName, categoryImg
 
 
 Task 4: FeaturesModel
@@ -52,32 +54,41 @@ Task 7: PaymentSettingModel
 Create a Mongoose model named paymentsettings to store user information. The User model should have the following fields: - store_id, store_passwd, currency, success_url, fail_url, cancel_url, ipn_url, init_url
 
 
-
+*
 Task 8: ProductDetailsModel
 
 
-Create a Mongoose model named paymentsettings to store user information. The User model should have the following fields: - img1, img2, img3, img4, des, color, size, productID
+Create a Mongoose model named paymentsettings to store user information.
+The User model should have the following fields: -
+img1, img2, img3, img4, des, color, size, productID
 
 
-
+*
 Task 9: ProductModel
 
 
-Create a Mongoose model named products to store user information. The User model should have the following fields: - title, shortDes, price, discount, discountPrice, image, star, stock, remark, categoryID, brandID
+Create a Mongoose model named products to store user information.
+The User model should have the following fields: - title, shortDes, price, discount,
+discountPrice, image, star, stock, remark, categoryID, brandID
 
 
-
+*
 Task 10: ProductSliderModel
 
 
-Create a Mongoose model named productsliders to store user information. The User model should have the following fields: - title, des, price, img, productID
+Create a Mongoose model named productsliders to store user information.
+The User model should have the following fields: - title, des, price, img, productID
 
 
-
+*
 Task 11: ProfileModel
 
 
-Create a Mongoose model named profiles to store user information. The User model should have the following fields: - userID, cus_add, cus_city, cus_country, cus_fax, cus_name, cus_phone, cus_postcode, cus_state, ship_add, ship_city, ship_country, ship_name, ship_phone, ship_postcode, ship_state
+Create a Mongoose model named profiles to store user information.
+The User model should have the following fields: -
+userID, cus_add, cus_city, cus_country, cus_fax, cus_name, cus_phone,
+cus_postcode, cus_state, ship_add, ship_city, ship_country, ship_name,
+ship_phone, ship_postcode, ship_state
 
 
 Task 12: ReviewModel
@@ -86,18 +97,20 @@ Task 12: ReviewModel
 Create a Mongoose model named reviews to store user information. The User model should have the following fields: - productID, userID, des, rating
 
 
-
+*
 Task 13: UserModel
 
 
-Create a Mongoose model named users to store user information. The User model should have the following fields: - email, otp
+Create a Mongoose model named users to store user information.
+The User model should have the following fields: - email, otp
 
 
-
+*
 Task 14: WishModel
 
 
-Create a Mongoose model named wishes to store user information. The User model should have the following fields: - productID, userID
+Create a Mongoose model named wishes to store user information.
+The User model should have the following fields: - productID, userID
 
 
 
