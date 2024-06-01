@@ -13,7 +13,7 @@ Create a Mongoose model named brands to store user information.
 The User model should have the following fields: - brandName, brandImg
 
 
-
+*
 Task 2: CartModel
 
 Create a Mongoose model named carts to store user information.
@@ -91,7 +91,7 @@ cus_postcode, cus_state, ship_add, ship_city, ship_country, ship_name,
 ship_phone, ship_postcode, ship_state
 
 
-Task 12: ReviewModel
+Task *12: ReviewModel
 
 
 Create a Mongoose model named reviews to store user information. The User model should have the following fields: - productID, userID, des, rating
